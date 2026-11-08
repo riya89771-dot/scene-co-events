@@ -1,0 +1,560 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scene Co. Events &amp; Experiences</title>
+<meta name="description" content="Scene Co. Events & Experiences — an upscale lounge and private-events venue. Explore our events lineup, private spaces and reserve your evening.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="canvas">
+  <div class="topbar">
+    <a class="brand" href="#main" aria-label="Scene Co. Events and Experiences home"><strong>Scene Co.</strong><span>Events &amp; Experiences</span></a>
+    <nav aria-label="Primary"><a href="#lineup-title">Events</a><a href="#venues-title">Venues</a><a class="btn btn--gold" href="#reserve">Reserve</a></nav>
+  </div>
+
+  <main id="main" class="layout">
+
+    <div class="panel">
+      <header class="hero">
+        <div class="photo photo--toast" role="img" aria-label="Guests raising glasses at an evening gathering under warm ambient lighting"></div>
+        <div class="hero__overlay"></div>
+        <a class="wordmark" href="#main" aria-label="Scene Co. Events and Experiences home">Scene Co.<span>Events &amp; Experiences</span></a>
+        <div class="hero__text">
+          <p class="eyebrow eyebrow--light">Events</p>
+          <h1>Every Night Sparkles with Scene Co.</h1>
+          <p>Scene Co. nights shine with excitement! Join us for vibrant events and live entertainment, making every evening sparkle at our lounge.</p>
+          <div class="hero__cta"><a class="btn btn--gold" href="#lineup-title">Browse Events</a><a class="btn btn--light" href="#reserve">Reserve a Table</a></div>
+        </div>
+      </header>
+
+      <section class="lineup" aria-labelledby="lineup-title">
+        <p class="eyebrow">Events</p>
+        <h2 id="lineup-title">Our Events Lineup</h2>
+        <div class="filters" role="group" aria-label="Filter events"><button type="button" class="chip is-on" data-filter="all" aria-pressed="true">All</button><button type="button" class="chip" data-filter="Dining" aria-pressed="false">Dining &amp; Drinks</button><button type="button" class="chip" data-filter="Concerts" aria-pressed="false">Concerts</button><button type="button" class="chip" data-filter="Corporate" aria-pressed="false">Corporate</button></div>
+        <ul class="events">
+          <li class="event" data-cat="Dining">
+            <div class="thumb photo photo--dinner" role="img" aria-label="Guests enjoying a plated tasting dinner at a candlelit table"></div>
+            <div class="event__info">
+              <span class="event__type">Dinner</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Hidden Nights — Dec 3">Hidden Nights</a></h3>
+              <p>Saturday, December 3, 2025 · 7pm–11pm</p>
+              <p class="event__tag">Chef-led tasting dinner at a candlelit table</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Hidden Nights — Dec 3">Book Now<span class="sr"> Hidden Nights, December 3</span></a>
+          </li>
+          <li class="event" data-cat="Concerts">
+            <div class="thumb photo photo--live" role="img" aria-label="Crowd watching a live performance with glowing stage lights"></div>
+            <div class="event__info">
+              <span class="event__type">Live Music</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Shining Sparkled — Dec 7">Shining Sparkled</a></h3>
+              <p>Saturday, December 7, 2025 · 7pm–11pm</p>
+              <p class="event__tag">Live music and lights under the open night sky</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Shining Sparkled — Dec 7">Book Now<span class="sr"> Shining Sparkled, December 7</span></a>
+          </li>
+          <li class="event" data-cat="Concerts">
+            <div class="thumb photo photo--jazz" role="img" aria-label="Close view of a trumpet being played at a jazz night"></div>
+            <div class="event__info">
+              <span class="event__type">Jazz Night</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Jazz &amp; Gold — Dec 12">Jazz &amp; Gold</a></h3>
+              <p>Friday, December 12, 2025 · 8pm–midnight</p>
+              <p class="event__tag">An evening of live jazz in the lounge</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Jazz &amp; Gold — Dec 12">Book Now<span class="sr"> Jazz &amp; Gold, December 12</span></a>
+          </li>
+          <li class="event" data-cat="Dining">
+            <div class="thumb photo photo--lounge" role="img" aria-label="Warmly lit lounge bar with pendant lamps and a wall of spirits"></div>
+            <div class="event__info">
+              <span class="event__type">Speakeasy</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Hidden Nights — Dec 15">Hidden Nights</a></h3>
+              <p>Saturday, December 15, 2025 · 7pm–11pm</p>
+              <p class="event__tag">Speakeasy night behind the bar</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Hidden Nights — Dec 15">Book Now<span class="sr"> Hidden Nights, December 15</span></a>
+          </li>
+          <li class="event" data-cat="Dining">
+            <div class="thumb photo photo--cocktail" role="img" aria-label="Bartender pouring an old fashioned over a large ice cube"></div>
+            <div class="event__info">
+              <span class="event__type">Cocktails</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Velvet Cocktail Society — Dec 20">Velvet Cocktail Society</a></h3>
+              <p>Saturday, December 20, 2025 · 7pm–11pm</p>
+              <p class="event__tag">Masterclass in classic stirred cocktails</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Velvet Cocktail Society — Dec 20">Book Now<span class="sr"> Velvet Cocktail Society, December 20</span></a>
+          </li>
+          <li class="event" data-cat="Dining">
+            <div class="thumb photo photo--wine" role="img" aria-label="Friends toasting with glasses of red wine"></div>
+            <div class="event__info">
+              <span class="event__type">Wine Tasting</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Cellar Sessions — Dec 26">Cellar Sessions</a></h3>
+              <p>Friday, December 26, 2025 · 6pm–10pm</p>
+              <p class="event__tag">Guided wine tasting with the sommelier</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Cellar Sessions — Dec 26">Book Now<span class="sr"> Cellar Sessions, December 26</span></a>
+          </li>
+          <li class="event" data-cat="Dining">
+            <div class="thumb photo photo--longtable" role="img" aria-label="Group of friends sharing a meal at a long table"></div>
+            <div class="event__info">
+              <span class="event__type">Supper Club</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Long Table Supper — Dec 27">Long Table Supper</a></h3>
+              <p>Saturday, December 27, 2025 · 6pm–10pm</p>
+              <p class="event__tag">Shared plates and conversation at one long table</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Long Table Supper — Dec 27">Book Now<span class="sr"> Long Table Supper, December 27</span></a>
+          </li>
+          <li class="event" data-cat="Concerts">
+            <div class="thumb photo photo--confetti" role="img" aria-label="Confetti falling over an excited crowd at night"></div>
+            <div class="event__info">
+              <span class="event__type">New Year</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Shining Sparkled — Dec 31">Shining Sparkled</a></h3>
+              <p>Wednesday, December 31, 2025 · 9pm–1am</p>
+              <p class="event__tag">New Year countdown under a shower of confetti</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Shining Sparkled — Dec 31">Book Now<span class="sr"> Shining Sparkled, December 31</span></a>
+          </li>
+          <li class="event" data-cat="Concerts">
+            <div class="thumb photo photo--concert-golden" role="img" aria-label="Crowd with raised hands facing a brightly lit concert stage"></div>
+            <div class="event__info">
+              <span class="event__type">Concert</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Golden Hour Live — Jan 10">Golden Hour Live</a></h3>
+              <p>Saturday, January 10, 2026 · 8pm–midnight</p>
+              <p class="event__tag">Headline band on the main stage</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Golden Hour Live — Jan 10">Book Now<span class="sr"> Golden Hour Live, January 10</span></a>
+          </li>
+          <li class="event" data-cat="Concerts">
+            <div class="thumb photo photo--concert-neon" role="img" aria-label="Silhouette of a guest filming colourful stage lights at a festival"></div>
+            <div class="event__info">
+              <span class="event__type">Festival</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Neon Nights Festival — Jan 24">Neon Nights Festival</a></h3>
+              <p>Saturday, January 24, 2026 · 7pm–1am</p>
+              <p class="event__tag">Lights, lasers and a late-night live lineup</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Neon Nights Festival — Jan 24">Book Now<span class="sr"> Neon Nights Festival, January 24</span></a>
+          </li>
+          <li class="event" data-cat="Concerts">
+            <div class="thumb photo photo--concert-hearts" role="img" aria-label="Fans making heart shapes with their hands at a concert"></div>
+            <div class="event__info">
+              <span class="event__type">Concert</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Hands Up Sessions — Feb 13">Hands Up Sessions</a></h3>
+              <p>Friday, February 13, 2026 · 8pm–midnight</p>
+              <p class="event__tag">Valentine live set with guest artists</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Hands Up Sessions — Feb 13">Book Now<span class="sr"> Hands Up Sessions, February 13</span></a>
+          </li>
+          <li class="event" data-cat="Corporate">
+            <div class="thumb photo photo--corp-summit" role="img" aria-label="Audience seated in a dark auditorium watching a presentation"></div>
+            <div class="event__info">
+              <span class="event__type">Corporate</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Leadership Summit — Jan 13">Leadership Summit</a></h3>
+              <p>Tuesday, January 13, 2026 · 9am–5pm</p>
+              <p class="event__tag">Full-day conference for senior teams</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Leadership Summit — Jan 13">Book Now<span class="sr"> Leadership Summit, January 13</span></a>
+          </li>
+          <li class="event" data-cat="Corporate">
+            <div class="thumb photo photo--corp-hall" role="img" aria-label="Modern banquet hall with round tables and large projection screens"></div>
+            <div class="event__info">
+              <span class="event__type">Corporate</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Executive Banquet Hall — Jan 22">Executive Banquet Hall</a></h3>
+              <p>Thursday, January 22, 2026 · 6pm–10pm</p>
+              <p class="event__tag">Round-table dinner for client and board events</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Executive Banquet Hall — Jan 22">Book Now<span class="sr"> Executive Banquet Hall, January 22</span></a>
+          </li>
+          <li class="event" data-cat="Corporate">
+            <div class="thumb photo photo--corp-launch" role="img" aria-label="Presenter on stage in front of a large screen at a product launch"></div>
+            <div class="event__info">
+              <span class="event__type">Launch</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Product Launch Night — Feb 4">Product Launch Night</a></h3>
+              <p>Wednesday, February 4, 2026 · 6pm–9pm</p>
+              <p class="event__tag">Stage, screens and a live product reveal</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Product Launch Night — Feb 4">Book Now<span class="sr"> Product Launch Night, February 4</span></a>
+          </li>
+          <li class="event" data-cat="Corporate">
+            <div class="thumb photo photo--corp-keynote" role="img" aria-label="Close-up of a microphone with a blurred audience behind"></div>
+            <div class="event__info">
+              <span class="event__type">Keynote</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Keynote Series — Feb 17">Keynote Series</a></h3>
+              <p>Tuesday, February 17, 2026 · 10am–4pm</p>
+              <p class="event__tag">Guest speakers and open-floor Q&A</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Keynote Series — Feb 17">Book Now<span class="sr"> Keynote Series, February 17</span></a>
+          </li>
+          <li class="event" data-cat="Corporate">
+            <div class="thumb photo photo--corp-offsite" role="img" aria-label="Colleague presenting to a team in a bright brick-walled workspace"></div>
+            <div class="event__info">
+              <span class="event__type">Workshop</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Team Offsite Workshop — Feb 27">Team Offsite Workshop</a></h3>
+              <p>Friday, February 27, 2026 · 9am–3pm</p>
+              <p class="event__tag">Hands-on collaboration day for teams</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Team Offsite Workshop — Feb 27">Book Now<span class="sr"> Team Offsite Workshop, February 27</span></a>
+          </li>
+          <li class="event" data-cat="Corporate">
+            <div class="thumb photo photo--corp-panel" role="img" aria-label="Panel of speakers talking with an audience in a gallery space"></div>
+            <div class="event__info">
+              <span class="event__type">Panel</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Industry Panel &amp; Mixer — Mar 5">Industry Panel &amp; Mixer</a></h3>
+              <p>Thursday, March 5, 2026 · 5pm–9pm</p>
+              <p class="event__tag">Expert panel followed by networking drinks</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Industry Panel &amp; Mixer — Mar 5">Book Now<span class="sr"> Industry Panel &amp; Mixer, March 5</span></a>
+          </li>
+          <li class="event" data-cat="Concerts">
+            <div class="thumb photo photo--concert-dj" role="img" aria-label="DJ hands on a turntable under purple and red club lighting"></div>
+            <div class="event__info">
+              <span class="event__type">DJ Night</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Pulse After Dark — Mar 13">Pulse After Dark</a></h3>
+              <p>Friday, March 13, 2026 · 9pm–2am</p>
+              <p class="event__tag">Resident and guest DJs in The Pulse Club</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Pulse After Dark — Mar 13">Book Now<span class="sr"> Pulse After Dark, March 13</span></a>
+          </li>
+          <li class="event" data-cat="Concerts">
+            <div class="thumb photo photo--concert-smoke" role="img" aria-label="Singer with a raised hand on stage surrounded by smoke and lights"></div>
+            <div class="event__info">
+              <span class="event__type">Live Tour</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Smoke &amp; Mirrors Tour — Mar 21">Smoke &amp; Mirrors Tour</a></h3>
+              <p>Saturday, March 21, 2026 · 8pm–11pm</p>
+              <p class="event__tag">Headline artist with a full stage production</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Smoke &amp; Mirrors Tour — Mar 21">Book Now<span class="sr"> Smoke &amp; Mirrors Tour, March 21</span></a>
+          </li>
+          <li class="event" data-cat="Concerts">
+            <div class="thumb photo photo--concert-arena" role="img" aria-label="Packed arena crowd beneath rainbow stage lasers and confetti"></div>
+            <div class="event__info">
+              <span class="event__type">Arena Show</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Spectrum Live — Apr 4">Spectrum Live</a></h3>
+              <p>Saturday, April 4, 2026 · 7pm–midnight</p>
+              <p class="event__tag">A full-colour laser and confetti spectacular</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Spectrum Live — Apr 4">Book Now<span class="sr"> Spectrum Live, April 4</span></a>
+          </li>
+          <li class="event" data-cat="Concerts">
+            <div class="thumb photo photo--concert-sunset" role="img" aria-label="Crowd with raised hands in front of a glowing sunset stage"></div>
+            <div class="event__info">
+              <span class="event__type">Open Air</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Open-Air Sunset Sessions — Apr 18">Open-Air Sunset Sessions</a></h3>
+              <p>Saturday, April 18, 2026 · 5pm–11pm</p>
+              <p class="event__tag">Sunset-to-midnight lineup on the grounds</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Open-Air Sunset Sessions — Apr 18">Book Now<span class="sr"> Open-Air Sunset Sessions, April 18</span></a>
+          </li>
+          <li class="event" data-cat="Concerts">
+            <div class="thumb photo photo--concert-crowd" role="img" aria-label="Cheering festival crowd with hands in the air"></div>
+            <div class="event__info">
+              <span class="event__type">Festival</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Festival Fan Night — May 1">Festival Fan Night</a></h3>
+              <p>Friday, May 1, 2026 · 7pm–midnight</p>
+              <p class="event__tag">Singalong classics with the whole crowd</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Festival Fan Night — May 1">Book Now<span class="sr"> Festival Fan Night, May 1</span></a>
+          </li>
+          <li class="event" data-cat="Corporate">
+            <div class="thumb photo photo--corp-glasshouse" role="img" aria-label="Bright glass-walled studio with a long table and pink chairs"></div>
+            <div class="event__info">
+              <span class="event__type">Retreat</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Glasshouse Strategy Retreat — Mar 10">Glasshouse Strategy Retreat</a></h3>
+              <p>Tuesday, March 10, 2026 · 9am–4pm</p>
+              <p class="event__tag">Quiet, light-filled space for leadership planning</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Glasshouse Strategy Retreat — Mar 10">Book Now<span class="sr"> Glasshouse Strategy Retreat, March 10</span></a>
+          </li>
+          <li class="event" data-cat="Corporate">
+            <div class="thumb photo photo--corp-conference" role="img" aria-label="Large conference hall with stage, screens and seated delegates"></div>
+            <div class="event__info">
+              <span class="event__type">Conference</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Annual Conference &amp; Awards — Mar 26">Annual Conference &amp; Awards</a></h3>
+              <p>Thursday, March 26, 2026 · 9am–9pm</p>
+              <p class="event__tag">Keynotes, breakout sessions and an awards dinner</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Annual Conference &amp; Awards — Mar 26">Book Now<span class="sr"> Annual Conference &amp; Awards, March 26</span></a>
+          </li>
+          <li class="event" data-cat="Corporate">
+            <div class="thumb photo photo--corp-skyline" role="img" aria-label="Looking up at glass skyscrapers in a business district"></div>
+            <div class="event__info">
+              <span class="event__type">Briefing</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Skyline Investor Briefing — Apr 8">Skyline Investor Briefing</a></h3>
+              <p>Wednesday, April 8, 2026 · 2pm–6pm</p>
+              <p class="event__tag">Invitation-only briefing with private reception</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Skyline Investor Briefing — Apr 8">Book Now<span class="sr"> Skyline Investor Briefing, April 8</span></a>
+          </li>
+          <li class="event" data-cat="Corporate">
+            <div class="thumb photo photo--corp-courtyard" role="img" aria-label="Guests mingling in a courtyard under string lights"></div>
+            <div class="event__info">
+              <span class="event__type">Mixer</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Courtyard Networking Mixer — Apr 23">Courtyard Networking Mixer</a></h3>
+              <p>Thursday, April 23, 2026 · 6pm–9pm</p>
+              <p class="event__tag">Drinks and introductions under string lights</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Courtyard Networking Mixer — Apr 23">Book Now<span class="sr"> Courtyard Networking Mixer, April 23</span></a>
+          </li>
+          <li class="event" data-cat="Corporate">
+            <div class="thumb photo photo--atrium" role="img" aria-label="Grand ballroom set for a gala dinner under crystal chandeliers"></div>
+            <div class="event__info">
+              <span class="event__type">Gala Dinner</span>
+              <h3><a class="event__link" href="#reserve" data-pick="Corporate Gala Dinner — May 14">Corporate Gala Dinner</a></h3>
+              <p>Thursday, May 14, 2026 · 7pm–11pm</p>
+              <p class="event__tag">Black-tie dinner and awards for clients and teams</p>
+            </div>
+            <a class="btn btn--outline" href="#reserve" data-pick="Corporate Gala Dinner — May 14">Book Now<span class="sr"> Corporate Gala Dinner, May 14</span></a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+
+    <section id="venues" class="venues" aria-labelledby="venues-title">
+      <p class="eyebrow eyebrow--light">Event Spaces</p>
+      <h2 id="venues-title">Private and Special Events</h2>
+      <p class="venues__blurb">From intimate dining rooms and garden lawns to concert stages and boardrooms, Scene Co. has a space for every kind of occasion. Choose a venue and reserve it below.</p>
+      <div class="filters filters--dark" role="group" aria-label="Filter venues">
+        <button type="button" class="chip is-on" data-vfilter="all" aria-pressed="true">All</button>
+        <button type="button" class="chip" data-vfilter="Concerts" aria-pressed="false">Concerts</button>
+        <button type="button" class="chip" data-vfilter="Corporate" aria-pressed="false">Corporate</button>
+        <button type="button" class="chip" data-vfilter="Indoor" aria-pressed="false">Indoor</button>
+        <button type="button" class="chip" data-vfilter="Outdoor" aria-pressed="false">Outdoor</button>
+        <button type="button" class="chip" data-vfilter="Food" aria-pressed="false">Food</button>
+      </div>
+      <div class="vgrid">
+
+
+      <article class="feature" data-vcat="Indoor">
+        <div class="frame"><div class="photo photo--garden" role="img" aria-label="Historic riverside view with a busy stone walkway crossing calm water at golden hour"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Indoor</p>
+          <h3>Riverside Garden</h3>
+          <p>A serene escape by the water, Riverside Garden offers lush greenery, peaceful walkways, and a refreshing connection to nature.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: Riverside Garden">Reserve Now<span class="sr"> Riverside Garden</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Food">
+        <div class="frame"><div class="photo photo--atrium" role="img" aria-label="Elegant indoor ballroom with a sleek backbar and warm chandeliers"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Food</p>
+          <h3>Atrium Backbar</h3>
+          <p>The backbar is a sleek and functional bar setup that balances efficiency and style. It enhances workflow while adding a touch of sophistication to any space.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: Atrium Backbar">Reserve Now<span class="sr"> Atrium Backbar</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Outdoor">
+        <div class="frame"><div class="photo photo--venue-terrace" role="img" aria-label="Waterfront terrace with a canopy, round tables and a view over the lake at sunset"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Outdoor</p>
+          <h3>Lakeside Terrace</h3>
+          <p>Open-air deck with water views, soft canopy shade and sunset dining for up to 80 guests.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: Lakeside Terrace">Reserve Now<span class="sr"> Lakeside Terrace</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Indoor">
+        <div class="frame"><div class="photo photo--venue-onyx" role="img" aria-label="Dark elegant dining room with booths, timber screens and pendant lighting"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Indoor</p>
+          <h3>The Onyx Room</h3>
+          <p>A moody, refined dining room with booth seating and warm timber, ideal for private dinners of up to 60.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: The Onyx Room">Reserve Now<span class="sr"> The Onyx Room</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Corporate">
+        <div class="frame"><div class="photo photo--venue-loft" role="img" aria-label="Bright loft space with pendant lamps, wooden tables and an open staircase"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Corporate</p>
+          <h3>The Loft Hall</h3>
+          <p>Industrial-chic space with a mezzanine, long tables and natural light for launches, mixers and workshops.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: The Loft Hall">Reserve Now<span class="sr"> The Loft Hall</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Outdoor">
+        <div class="frame"><div class="photo photo--venue-lawn" role="img" aria-label="Green lawn by the water with two decorated chairs set for a ceremony"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Outdoor</p>
+          <h3>Lawn Pavilion</h3>
+          <p>A manicured lawn beside the water for ceremonies, receptions and garden parties of up to 150.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: Lawn Pavilion">Reserve Now<span class="sr"> Lawn Pavilion</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Corporate">
+        <div class="frame"><div class="photo photo--venue-boardroom" role="img" aria-label="Modern boardroom with floor-to-ceiling windows and a long conference table"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Corporate</p>
+          <h3>The Boardroom</h3>
+          <p>A glass-walled meeting room with panoramic views, built for board sessions and client presentations.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: The Boardroom">Reserve Now<span class="sr"> The Boardroom</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Food">
+        <div class="frame"><div class="photo photo--venue-fairylight" role="img" aria-label="Guests raising glasses at a banquet hall strung with warm fairy lights"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Food</p>
+          <h3>Fairy-Light Banquet Hall</h3>
+          <p>Festoon lighting, long communal tables and a warm atmosphere for celebrations and toasts.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: Fairy-Light Banquet Hall">Reserve Now<span class="sr"> Fairy-Light Banquet Hall</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Concerts">
+        <div class="frame"><div class="photo photo--concert-arena" role="img" aria-label="Arena stage lit with colourful lasers in front of a large crowd"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Concerts</p>
+          <h3>The Spectrum Arena</h3>
+          <p>Our flagship concert space with a full lighting rig, a pro sound system and room for 1,200 standing guests.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: The Spectrum Arena">Reserve Now<span class="sr"> The Spectrum Arena</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Concerts">
+        <div class="frame"><div class="photo photo--concert-dj" role="img" aria-label="DJ turntable glowing in purple and red club light"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Concerts</p>
+          <h3>The Pulse Club</h3>
+          <p>An intimate late-night club room with a DJ booth, VIP booths and a dance floor for up to 300.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: The Pulse Club">Reserve Now<span class="sr"> The Pulse Club</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Concerts">
+        <div class="frame"><div class="photo photo--concert-sunset" role="img" aria-label="Outdoor festival stage glowing at sunset with a cheering crowd"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Concerts</p>
+          <h3>Open-Air Festival Grounds</h3>
+          <p>Outdoor grounds with a main stage and food area, built for sunset festivals of up to 2,000 guests.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: Open-Air Festival Grounds">Reserve Now<span class="sr"> Open-Air Festival Grounds</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Corporate">
+        <div class="frame"><div class="photo photo--corp-conference" role="img" aria-label="Large conference hall with a stage, screens and seating"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Corporate</p>
+          <h3>Grand Conference Hall</h3>
+          <p>A column-free hall with a stage, AV wall and breakout zones for conferences of up to 400 delegates.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: Grand Conference Hall">Reserve Now<span class="sr"> Grand Conference Hall</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Corporate">
+        <div class="frame"><div class="photo photo--corp-glasshouse" role="img" aria-label="Glass-walled studio with a long table and pink chairs"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Corporate</p>
+          <h3>The Glasshouse Studio</h3>
+          <p>A light-filled meeting studio for workshops, retreats and strategy days for 12 to 40 people.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: The Glasshouse Studio">Reserve Now<span class="sr"> The Glasshouse Studio</span></a>
+        </div>
+      </article>
+
+
+      <article class="feature" data-vcat="Corporate">
+        <div class="frame"><div class="photo photo--corp-skyline" role="img" aria-label="Glass skyscrapers seen from below in a city business district"></div></div>
+        <div class="feature__text">
+          <p class="eyebrow">Corporate</p>
+          <h3>Skyline Executive Suite</h3>
+          <p>A high-floor suite for investor briefings and client receptions, with private catering and concierge.</p>
+          <a class="btn btn--gold" href="#reserve" data-pick="Venue: Skyline Executive Suite">Reserve Now<span class="sr"> Skyline Executive Suite</span></a>
+        </div>
+      </article>
+        <article class="feature" data-vcat="Indoor">
+          <div class="frame"><div class="photo photo--venue-celebration" role="img" aria-label="Bright celebration hall with bunting, flower centrepieces and set banquet tables"></div></div>
+          <div class="feature__text">
+            <p class="eyebrow">Indoor</p>
+            <h3>The Celebration Hall</h3>
+            <p>A bright, flexible hall dressed with bunting and fresh flowers for birthdays, receptions and community events of up to 200.</p>
+            <a class="btn btn--gold" href="#reserve" data-pick="Venue: The Celebration Hall">Reserve Now<span class="sr"> The Celebration Hall</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="reserve" class="reserve" aria-labelledby="reserve-title">
+      <p class="eyebrow">Get Your Experience</p>
+      <h2 id="reserve-title">Make a Reservation</h2>
+      <p id="pick" class="pick" hidden></p>
+      <form id="form" novalidate>
+        <div class="field">
+          <label for="name">Guest name or contact</label>
+          <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-err">
+          <span class="err" id="name-err" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="date">Date</label>
+          <input id="date" name="date" type="date" required aria-describedby="date-err">
+          <span class="err" id="date-err" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="time">Time</label>
+          <select id="time" name="time" required aria-describedby="time-err">
+            <option value="">Select a time</option>
+          </select>
+          <span class="err" id="time-err" role="alert"></span>
+        </div>
+        <button class="btn btn--gold btn--submit" type="submit">Book Now</button>
+      </form>
+      <p id="note" class="note" role="status" tabindex="-1" hidden></p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>© Scene Co. Events &amp; Experiences · Sample dates and copy to be confirmed by the venue.</p>
+  </footer>
+</div>
+
+
+<dialog id="modal" class="modal" aria-labelledby="m-title">
+  <div class="modal__box">
+    <button type="button" class="modal__close" id="m-close" aria-label="Close details">&times;</button>
+    <div class="modal__photo photo" id="m-photo" role="img" aria-label=""></div>
+    <div class="modal__body">
+      <p class="eyebrow" id="m-type"></p>
+      <h2 id="m-title"></h2>
+      <p class="modal__when" id="m-when"></p>
+      <p class="modal__desc" id="m-desc"></p>
+      <ul class="modal__facts" id="m-facts"></ul>
+      <div class="modal__actions">
+        <a class="btn btn--gold" id="m-reserve" href="#reserve" data-pick="">Book This</a>
+        <button type="button" class="btn btn--outline" id="m-dismiss">Close</button>
+      </div>
+      <p class="modal__fine">Sample details. Dates, times and capacities are to be confirmed by the venue.</p>
+    </div>
+  </div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
